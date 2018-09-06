@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Untitled Test Suite</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Untitled Test Case</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://etjanster.lantmateriet.se/lina/flow/main?execution=e1s1<datalist><option>https://etjanster.lantmateriet.se/lina/flow/main?execution=e1s1</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=searchRealPropertyForm:searchRealPropertyButton<datalist><option>id=searchRealPropertyForm:searchRealPropertyButton</option><option>name=searchRealPropertyForm:searchRealPropertyButton</option><option>//input[@id='searchRealPropertyForm:searchRealPropertyButton']</option><option>//div[@id='searchRealPropertyFormTab']/input[3]</option><option>//input[3]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Hämta ägare<datalist><option>link=Hämta ägare</option><option>//a[contains(text(),'Hämta ägare')]</option><option>//a[@onclick='Lina.showOwnerInfo();']</option><option>//div[@id='realPropertyCreate']/fieldset/ul/li[7]/a</option><option>xpath=(//a[contains(@href, '#')])[16]</option><option>//li[7]/a</option><option>css=li.get &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>storeText</td><td>//div[@id='ownerInfoDiv']/h4<datalist><option>//div[@id='ownerInfoDiv']/h4</option><option>//h4</option><option>css=h4</option></datalist></td><td>OwnerName</td>
+</tr>
+<tr><td>storeText</td><td>//div[@id='ownerInfoDiv']/ul/li<datalist><option>//div[@id='ownerInfoDiv']/ul/li</option><option>//div[5]/div[2]/div/ul/li</option><option>css=#ownerInfoDiv &gt; ul &gt; li</option></datalist></td><td>Owner</td>
+</tr>
+<tr><td>click</td><td>xpath=(//button[@type='submit'])[2]<datalist><option>xpath=(//button[@type='submit'])[2]</option><option>//div[@id='dijit_Dialog_1']/button</option><option>//div[5]/button</option><option>css=#dijit_Dialog_1 &gt; button.button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
